@@ -3,7 +3,7 @@
 
 <div class="container">
     <div class="top_part">
-        <img class="top_img" src="{{ asset('app/img/freedom_ogp.png') }}">
+        <img class="top_img" src="{{ secure_asset('app/img/freedom_ogp.png') }}">
     </div>
 
     <div class="select_part">
@@ -12,7 +12,7 @@
 
             <table class="table table-hover mb-0">
                 <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/check-icon.png') }}"></td>
+                    <td class="icon"><img class="icon" src="{{ secure_asset('app/img/check-icon.png') }}"></td>
                     <td><h5 class="card-title">おっさんプログラマー１号店</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
@@ -20,14 +20,14 @@
             </table>
             <table class="table table-hover mb-0">
                 <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
+                    <td class="icon"><img class="icon" src="{{ secure_asset('app/img/star-icon.png') }}"></td>
                     <td><h5 class="card-title">おっさんプログラマー2号店</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
             </table>
             <table class="table table-hover mb-0">
                 <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
+                    <td class="icon"><img class="icon" src="{{ secure_asset('app/img/star-icon.png') }}"></td>
                     <td><h5 class="card-title">おっさんプログラマー3号店</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
@@ -35,7 +35,7 @@
             </table>
             <table class="table table-hover mb-0">
                 <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
+                    <td class="icon"><img class="icon" src="{{ secure_asset('app/img/star-icon.png') }}"></td>
                     <td><h5 class="card-title">おっさんプログラマー4号店</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
@@ -48,7 +48,7 @@
 
             <table class="table table-hover mb-0">
                 <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/check-icon.png') }}"></td>
+                    <td class="icon"><img class="icon" src="{{ secure_asset('app/img/check-icon.png') }}"></td>
                     <td><h5 class="card-title">おっさんプログラマによるWordPress</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
@@ -56,14 +56,14 @@
             </table>
             <table class="table table-hover mb-0">
                 <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
+                    <td class="icon"><img class="icon" src="{{ secure_asset('app/img/star-icon.png') }}"></td>
                     <td><h5 class="card-title">おっさんプログラマーによるLaravel</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
             </table>
             <table class="table table-hover mb-0">
                 <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
+                    <td class="icon"><img class="icon" src="{{ secure_asset('app/img/star-icon.png') }}"></td>
                     <td><h5 class="card-title">おっさんプログラマーによるアンドロイドアプリ</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
@@ -71,7 +71,7 @@
             </table>
             <table class="table table-hover mb-0">
                 <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
+                    <td class="icon"><img class="icon" src="{{ secure_asset('app/img/star-icon.png') }}"></td>
                     <td><h5 class="card-title">おっさんプログラマーによる中国語翻訳</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
