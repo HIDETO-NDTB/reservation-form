@@ -3,21 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Shop;
 
-class FrontEndController extends Controller
+class ShopsController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(){
-
-        $shops = Shop::all();
-
-        return view('index')->with('shops',$shops);
-
+    public function index()
+    {
+        //
     }
 
     /**

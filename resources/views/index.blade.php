@@ -10,36 +10,16 @@
         <div class="card">
             <h3 class="card-header">店舗を選択</h3>
 
+            @foreach ($shops as $shop)
             <table class="table table-hover mb-0">
                 <tr>
                     <td class="icon"><img class="icon" src="{{ asset('app/img/check-icon.png') }}"></td>
-                    <td><h5 class="card-title">おっさんプログラマー１号店</h5></td>
+                    <td><h5 class="card-title">{{ $shop->name }}</h5></td>
                     <td><button class="detail">詳細</button></td>
                 </tr>
 
             </table>
-            <table class="table table-hover mb-0">
-                <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
-                    <td><h5 class="card-title">おっさんプログラマー2号店</h5></td>
-                    <td><button class="detail">詳細</button></td>
-                </tr>
-            </table>
-            <table class="table table-hover mb-0">
-                <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
-                    <td><h5 class="card-title">おっさんプログラマー3号店</h5></td>
-                    <td><button class="detail">詳細</button></td>
-                </tr>
-
-            </table>
-            <table class="table table-hover mb-0">
-                <tr>
-                    <td class="icon"><img class="icon" src="{{ asset('app/img/star-icon.png') }}"></td>
-                    <td><h5 class="card-title">おっさんプログラマー4号店</h5></td>
-                    <td><button class="detail">詳細</button></td>
-                </tr>
-            </table>
+            @endforeach
 
         </div>
 
