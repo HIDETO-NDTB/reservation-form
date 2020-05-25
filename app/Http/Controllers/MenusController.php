@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+//use Illuminate\Http\Request;
+use Request;
 
 class MenusController extends Controller
 {
@@ -80,5 +81,17 @@ class MenusController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function date(Request $date)
+    {
+        $data1 = $date::all();
+        return view('select_date')->with('data1',$data1);
     }
 }

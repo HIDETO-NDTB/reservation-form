@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Shop;
+use App\Menu;
 
 class FrontEndController extends Controller
 {
@@ -15,8 +16,20 @@ class FrontEndController extends Controller
     public function index(){
 
         $shops = Shop::all();
+        $menus = Menu::all();
 
-        return view('index')->with('shops',$shops);
+        return view('index')->with('shops',$shops)
+                            ->with('menus',$menus);
+
+    }
+
+    public function select_date(){
+
+        $shops = Shop::all();
+        $menus = Menu::all();
+
+        return view('serect_date')->with('shops',$shops)
+                                  ->with('menus',$menus);
 
     }
 

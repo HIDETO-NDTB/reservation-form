@@ -11,13 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
 Route::get('/', [
     'uses' => 'FrontEndController@index',
     'as' => 'index'
+]);
+
+Route::post('/date', [
+    'uses' => 'MenusController@date',
+    'as' => 'select_date'
 ]);
